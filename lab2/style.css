@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+ 
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: black;
+  background-color: rgb(252, 250, 250);
+}
+.calc{
+  text-align:center;
+  background-color:rgba(176, 206, 242, 0.447);
+  height : 380px;
+  width : 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-top: 20px;
+}
+.hed{
+  height: 100px;
+  background-color: black;
+}
+
+.navig{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 70px;
+  padding-top: 5px;
+  padding-right: 120px;
+}
+
+.logo{
+  display: block;
+  margin-top: 8px;
+}
+
+.nav_list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: auto 0;
+  padding: 0;
+  padding-left: 600px;
+  list-style: none;
+}
+
+.text_h{
+  display: block;
+  min-width: 200px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: none;
+  color:white;
+}
+
+.nav_but{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: none;
+  border-radius: 100px;
+}
+/* опишем базовый стиль кнопки калькулятора */
+.my-btn { 
+    font-weight:bold;
+    margin-right: 5px;           /* задаем отступ от кнопки справа */
+    margin-top: 5px;             /* задаем отступ от кнопки сверху*/
+    width: 50px;                 /* задаем ширину кнопки */
+    height: 50px;                /* задаем высоту кнопки */
+    border-radius: 15px;          /* округляем кнопку */
+    border: 1px solid black;                /* отключаем обводку */
+    background: #12e042;         /* задаем серый цвет кнопки */
+    color: rgb(255, 255, 255);                /* задаем белый цвет текста внутри кнопки */
+    font-size: 1rem;           /* увеличим размер шрифта */
+    font-family: Verdana, sans-serif; /* сменим шрифт */
+    cursor: pointer;             /* при наведении на кнопку курсор будет изменен
+                                    со стрелки на 'указательный палец' */
+    user-select: none;           /* отключаем возможность выделить текст внутри кнопки */
+  } 
+  
+  /* hover - это состояние элемента, когда на него наведен курсор */
+  .my-btn:hover{
+    background: #047920;
+  }
+  .my-btn.secondary:hover{
+    background: #047920;
+  }
+  .my-btn.primary:hover{
+    background: #047920;
+  }
+  
+  /* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+  .my-btn:active {
+    filter: brightness(130%); /* увеличим интенсивность цвета для эффекта вспышки */
+  }
+  
+  /* селектор для кнопок первостепенных операций */
+  .my-btn.primary { 
+    background: #12e042; /* цвет кнопки оранжевый */
+  }
+  
+  /* селектор для кнопок второстепенных операций */
+  .my-btn.secondary { 
+    background: #12e042; /* цвет кнопки сервый */
+  }
+  
+  /* селектор для кнопки расчета выражения (=) */
+  .my-btn.execute { 
+    width: 110px;          /* сделаем кнопку шире других */
+    border-radius: none;   /* подкорректируем округлость */
+  }
+  
+  /* селектор для поля вывода результата */
+  .result {
+    border: 1px solid black; 
+    margin-left: 80px; 
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 15px;         /* отступ снизу */
+    padding-right: 10px;         /* выступ справа */
+    background: rgb(252, 250, 250); /* цвет можно задавать и таким образом */
+    text-align: right;           /* примагнитим текст к правой стороне */
+    color: #0c0101;              /* цвет текста белый */
+    font-size: 1.5rem;
+    font-family: Verdana, sans-serif;
+  }
+
+  .teg{
+    
+    font-family: Verdana, sans-serif; 
+    text-align:center;
+  }

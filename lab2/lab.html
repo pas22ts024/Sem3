@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <header class="hed">
+    <nav class="navig">
+      <a href="https://github.com/pas22ts024?tab=repositories">
+        <img src="stepLogo.png" class="logo"></img>
+      </a>
+      <ul class="nav_list">
+        <li>
+          <a href="#" class="text_h">Проекты</a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/labd.html" class="text_h">Обо мне</a>
+        </li>
+      </ul>
+      <button class="nav_but" type="button">
+        <img src="userLogo.png" class="nav_but_menu"></img>
+      </button>
+    </nav>
+  </header>
+  <div class="calc"> <!-- div - это базовый html-контейнер, который может содержать в себе другие html-элементы. -->
+    
+    <!-- блок с экраном калькулятора, где будет выводиться результат вычислений. -->
+    <div id="result">
+      0
+    </div>
+
+    <!-- блок с кнопками калькулятора. -->
+    <div>
+      <!--горизонтальный ряд из четырех кнопок-->
+      <div>  
+        <button class="my-btn secondary" id="btn_op_clear">C</button>    <!-- про тэг кнопки: https://www.w3schools.com/tags/tag_button.asp -->
+        <button class="my-btn secondary" id="btn_op_neg">+/-</button>
+        <button class="my-btn secondary" id="btn_op_percent">%</button>
+        <button class="my-btn primary" id="btn_op_div">/</button>
+      </div>
+
+      <div>
+        <button class="my-btn" id="btn_digit_7">7</button>
+        <button class="my-btn" id="btn_digit_8">8</button>
+        <button class="my-btn" id="btn_digit_9">9</button>
+        <button class="my-btn primary" id="btn_op_mult">x</button>
+      </div>
+
+      <div>
+        <button class="my-btn" id="btn_digit_4">4</button>
+        <button class="my-btn" id="btn_digit_5">5</button>
+        <button class="my-btn" id="btn_digit_6">6</button>
+        <button class="my-btn primary" id="btn_op_minus">-</button>
+      </div>
+
+      <div>
+        <button class="my-btn" id="btn_digit_1">1</button>
+        <button class="my-btn" id="btn_digit_2">2</button>
+        <button class="my-btn" id="btn_digit_3">3</button>
+        <button class="my-btn primary" id="btn_op_plus">+</button>
+      </div>
+
+      <div>
+        <button class="my-btn" id="btn_digit_0">0</button>
+        <button class="my-btn" id="btn_digit_.">.</button>
+        <button class="my-btn primary execute" id="btn_op_equal">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
