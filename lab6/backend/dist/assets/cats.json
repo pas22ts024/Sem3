@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "src": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x2.jpg",
+    "name": "Пушок",
+    "age": 2,
+    "color": "Серый",
+    "female": false,
+    "adopted": false
+  },
+  {
+    "id": 3,
+    "src": "https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg",
+    "name": "Ася",
+    "age": 5,
+    "color": "Рыжий",
+    "female": true,
+    "adopted": true
+  },
+  {
+    "id": 4,
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg",
+    "name": "Мурка",
+    "age": 8,
+    "color": "Рыжий",
+    "female": false,
+    "adopted": true
+  },
+  {
+    "id": 5,
+    "src": "https://storage.yandexcloud.net/yac-wh-sb-prod-s3-media-03007/uploads/article/67/43bd8819b80d4e5df56ea6d76f55240c.webp",
+    "name": "Барсик",
+    "age": 3,
+    "color": "Серый",
+    "female": false,
+    "adopted": false
+  }
+]
